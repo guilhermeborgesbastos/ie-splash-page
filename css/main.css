@@ -65,6 +65,21 @@ body, html {
     border-radius: 15px;
 }
 
+.body-container ul li:hover {
+   background-color: #222f5c0d;
+}
+
+
+.body-container ul li:first-child {
+   padding-left: 0;
+   margin-left: 0;
+}
+
+.body-container ul li:last-child {
+   padding-right: 0;
+   margin-right: 0;
+}
+
 .body-container ul li {
     display: inline-block;
     margin: 0;
@@ -93,4 +108,57 @@ i.fa {
 
 i.ie-browser {
     font-weight: 600;
+}
+
+/* RESPONSIVITY */
+
+@media screen and (max-width: 1024px) {
+    .body-container .inner-container {
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .body-container .inner-container {
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body-container .inner-container {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .body-container {
+        background-image: none;
+        width: 75vw;
+    }
+
+    .body-container ul {
+        padding: 0;
+    }
+
+    i.fa {
+        font-size: 40px;
+    }
+
+    .body-container .inner-container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .body-container {
+        width: 70vw;
+    }
+
+    i.fa {
+        margin: 0 10px;
+    }
+
+    .body-container ul li p {
+        font-size: 14px;
+    }
 }
