@@ -1,7 +1,9 @@
 # Splash Page Preview
 
 <p align="center">
-  <img src="./img/preview-ie-splash-page.jpg">
+  <a href="https://guilhermeborgesbastos.github.io/ie-splash-page/" taget="blank">
+    <img src="./img/preview-ie-splash-page.jpg" alt="splash page preview">
+  </a>
 </p>
 
 # Internet Explorer - Deprecated Warning Page
